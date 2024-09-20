@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Community from "../../components/Community/Community";
 import './Home.scss';
 const tg = window.Telegram.WebApp

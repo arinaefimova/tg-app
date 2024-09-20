@@ -3,13 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage":"https://arinaefimova.github.io/tg-app",
   "scripts": {
     "dev": "nodemon",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+      "deploy":"gh-pages -d dist",
+    "predeploy":"npm run build"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "node-telegram-bot-api": "^0.66.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -26,6 +30,7 @@
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
+    "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
     "nodemon": "^3.1.6",
     "vite": "^5.4.1"
