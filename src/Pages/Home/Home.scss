@@ -1,0 +1,8 @@
+.home{
+    &__inner{
+        height: calc(100vh - 80px - 100px);
+         padding-bottom: 20px;
+        overflow: auto;
+        position: relative;
+    }
+}

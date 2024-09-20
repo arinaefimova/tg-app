@@ -1,0 +1,15 @@
+.header{
+   height: 80px;
+   display: flex;
+   align-items: center;
+   position: relative;
+
+   
+
+    &__logo{
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 600;
+     
+    }
+}

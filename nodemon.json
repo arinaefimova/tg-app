@@ -1,0 +1,5 @@
+{
+    "ignore": ["*.js", "*.json", "public/*", "dist/*"], 
+    "exec": "node bot.js"
+}
+  
